@@ -1,0 +1,11 @@
+.content{
+    height: 100vh;    
+    padding-top: 5rem !important;
+    overflow-y: scroll;
+    padding: 3rem;
+    @media (min-width:$smartphone)  {
+        padding: 1rem;
+    }
+}
+
+
