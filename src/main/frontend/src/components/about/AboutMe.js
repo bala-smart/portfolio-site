@@ -20,7 +20,7 @@ export default class AboutMe extends React.Component{
         return(
             <div className="content">                
                 <Helmet>
-                    <title>Bala Development | About Me</title>
+                    <title>Software Developer | Balakumar S | Trichy</title>
                     <meta name="description" content="This is about the Balakumar S and his projects" />
                 </Helmet>
                 <Introduction />                           

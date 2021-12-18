@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class WelcomeController {
 
-    @GetMapping("/welcome")
+    @GetMapping("/api/welcome")
     public String welcome(){
         return "Welcome to java aws demo";
     }

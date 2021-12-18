@@ -1,6 +1,5 @@
 import React from 'react';
 import {Helmet} from 'react-helmet'
-import { CodeBlock, CopyBlock, dracula } from "react-code-blocks";
 export default class ContactUs extends React.Component{
     constructor(props){        
         super(props);        
@@ -23,13 +22,7 @@ export default class ContactUs extends React.Component{
                 <p>Mobile      : 9943947430</p>
                 <p>Whatsapp    : <a href="https://wa.me/919943947430">here</a></p>
                 <p>Email       : <a href = "mailto: sbalakumarece@gmail.com">Send Email</a></p>
-                <p>Linkedin       : <a href = "https://www.linkedin.com/in/balakumar-s-12567310b/">here</a></p>
-                <CopyBlock 
-                    text={this.state.code}
-                    language={this.state.language}
-                    showLineNumbers={true}
-                    theme={dracula}
-                />                
+                <p>Linkedin       : <a href = "https://www.linkedin.com/in/balakumar-s-12567310b/">here</a></p>                
            </div>
         )
     };

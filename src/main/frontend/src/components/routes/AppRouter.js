@@ -31,9 +31,9 @@ class AppRouter extends Component {
                 <PublicRoute path="/config" restricted={false} component={Config} exact />
                 <PublicRoute path="/about" restricted={false} component={AboutMe} exact />
                 <PublicRoute path="/contact" restricted={false} component={ContactUs} exact />
-                <PublicRoute path="/learn/jni" restricted={false} component={JNI} exact />
-                <PublicRoute path="/learn/spring" restricted={false} component={Spring} exact />
-                <PublicRoute path="/learn/java" restricted={false} component={Java} exact />
+                <PublicRoute path="/jni" restricted={false} component={JNI} exact />
+                <PublicRoute path="/spring" restricted={false} component={Spring} exact />
+                <PublicRoute path="/java" restricted={false} component={Java} exact />
                 <Route component={NotFoundPage} />
             </Switch>
         </div>

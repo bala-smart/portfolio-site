@@ -47,15 +47,15 @@ export default class HomeNavbar extends Component {
                         Learnings
                         </a>
                         <div key="java" className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <Link className="nav-link" key="3" to="/learn/java">
+                            <Link className="nav-link" key="3" to="/java">
                                 <span className="sr-only">java</span>
                             </Link>
                         <div key="jni" className="dropdown-divider"></div>
-                            <Link className="nav-link" key="4" to="/learn/jni">
+                            <Link className="nav-link" key="4" to="/jni">
                                 <span className="sr-only">JNI</span>
                             </Link>
                         <div key="spring" className="dropdown-divider"></div>
-                            <Link className="nav-link" key="5" to="/learn/spring">
+                            <Link className="nav-link" key="5" to="/spring">
                                 <span className="sr-only">Spring</span>
                             </Link>
                         </div>
